@@ -3,8 +3,4 @@
 - Is important for SEO
   https://www.handtalk.me/en/blog/accessibility-and-seo/
 
-- Trick to get it easy.
-
-- use a library like react-aria, is backed by Adobe, all components are high quality components and unstyled,
-  this means that you can make your own components stared from these and make your own, in this way you can be sure
-  that the app that you are making is a top quality app.
+- use a library like react-aria to build your app, is backed by Adobe, all components are high quality components and unstyled, this means that you can make your own components stared from these and make your own, in this way you can be surethat the app that you are making is a top quality app.
