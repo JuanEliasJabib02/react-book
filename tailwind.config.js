@@ -7,3 +7,5 @@ export default {
   plugins: [],
 }
 
+
+/*TODO Tailwind is wrong configured, i'm using it from the CDN, fix later */
