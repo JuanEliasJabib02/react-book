@@ -24,7 +24,7 @@ Reactivity encompasses broader aspects than rendering. While rendering is the ac
 
 In summary, reactivity includes rendering as one of its parts but also encompasses the logic and mechanisms to detect and handle data changes, ensuring that the UI stays synchronized with the application's state.
 
-# Thoungs
+# Thoughts to keep studyng later.
 
 - React reactivity and rendering is based in something called Virtual DOM.
 - Reactivity on react is handle mainly by using two hooks useState and useEffect,
