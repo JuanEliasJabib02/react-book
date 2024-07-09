@@ -14,7 +14,7 @@ Rendering, on the other hand, refers to the process of generating the UI based o
 
 - Incremental Static Regeneration (ISR): Combines the best of SSR and SSG, allowing static pages to be regenerated incrementally and on-demand.
 
-#Relationship Between Reactivity and Rendering
+# Relationship Between Reactivity and Rendering
 
 Reactivity encompasses broader aspects than rendering. While rendering is the act of generating and updating the UI, reactivity includes:
 
