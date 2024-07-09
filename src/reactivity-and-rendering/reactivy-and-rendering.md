@@ -14,6 +14,9 @@ Rendering, on the other hand, refers to the process of generating the UI based o
 
 - Incremental Static Regeneration (ISR): Combines the best of SSR and SSG, allowing static pages to be regenerated incrementally and on-demand.
 
+- React Frameworks like nextjs have this behavior automatic optmize your app to be static
+  when is possible https://nextjs.org/docs/pages/building-your-application/rendering/automatic-static-optimization
+
 # Relationship Between Reactivity and Rendering
 
 Reactivity encompasses broader aspects than rendering. While rendering is the act of generating and updating the UI, reactivity includes:
