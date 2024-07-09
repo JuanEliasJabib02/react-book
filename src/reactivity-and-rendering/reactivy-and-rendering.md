@@ -27,6 +27,21 @@ Reactivity encompasses broader aspects than rendering. While rendering is the ac
 
 In summary, reactivity includes rendering as one of its parts but also encompasses the logic and mechanisms to detect and handle data changes, ensuring that the UI stays synchronized with the application's state.
 
+# How work the reactivity and rendering in react?
+
+In react we have two main tools to handle the reactivity of a web app, useState and useEffect,
+combining this two hooks we can have a complete control about it.
+
+The rendering of a application is react work under something called "virtual dom",
+is designed to optimize the process of updating the user interface by minimizing direct manipulation of the actual DOM, which can be slow.
+The virtual dom is nothing more that a representation in-memory of the dom
+
+- in a simply way to understand virtual dom work
+  comparing the previous dom with the virtual dom and check if something change
+  and change in the real dom only the neccesary (this process is called reconcilation).
+
+In this first step react
+
 # Thoughts to keep studyng later.
 
 - React reactivity and rendering is based in something called Virtual DOM.
@@ -40,3 +55,4 @@ In summary, reactivity includes rendering as one of its parts but also encompass
 
 - What is the differences built-time vs request time in the rendering process.?
 - What is the cycle of life of a React component?
+- Explain the reconcilation process?

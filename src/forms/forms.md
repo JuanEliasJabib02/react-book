@@ -1,0 +1,4 @@
+- controlled inputs vs uncontrolled inputs
+- jsons
+- data mutation
+- server actions
