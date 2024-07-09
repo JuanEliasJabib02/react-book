@@ -1,8 +1,8 @@
-#Reactivity
+# Reactivity
 
 Reactivity refers to an application's ability to update and respond to data changes efficiently and automatically. In the context of a web application, this means that when data changes (e.g., through user input, a server update, or a change in application state), the user interface (UI) automatically updates to reflect those changes. Frameworks and libraries like React, Vue.js, and Svelte implement reactivity to facilitate the management of state changes and their impact on the UI.
 
-#Rendering
+# Rendering
 
 Rendering, on the other hand, refers to the process of generating the UI based on the current state of the application. There are different types of rendering:
 
@@ -24,7 +24,7 @@ Reactivity encompasses broader aspects than rendering. While rendering is the ac
 
 In summary, reactivity includes rendering as one of its parts but also encompasses the logic and mechanisms to detect and handle data changes, ensuring that the UI stays synchronized with the application's state.
 
-<!-- Thoungs -->
+# Thoungs
 
 - React reactivity and rendering is based in something called Virtual DOM.
 - Reactivity on react is handle mainly by using two hooks useState and useEffect,
@@ -35,4 +35,7 @@ In summary, reactivity includes rendering as one of its parts but also encompass
 
 <!-- Questions to be answer later -->
 
-<!-- What is built-time vs request time? for later -->
+# questions to be answer
+
+- What is the differences built-time vs request time in the rendering process.?
+- What is the cycle of life of a React component?
