@@ -17,6 +17,8 @@ Rendering,on the other hand, refers to the process of generating the UI based on
 - React Frameworks like nextjs have this behavior automatic optmize your app to be static
   when is possible https://nextjs.org/docs/pages/building-your-application/rendering/automatic-static-optimization
 
+- We cover most of this in the rendering chapter.
+
 # Relationship Between Reactivity and Rendering
 
 Reactivity encompasses broader aspects than rendering. While rendering is the act of generating and updating the UI, reactivity includes:
