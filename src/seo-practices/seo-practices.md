@@ -1,0 +1,2 @@
+- why server side rendering is important
+- metatags
