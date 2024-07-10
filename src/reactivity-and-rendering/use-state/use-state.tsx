@@ -33,3 +33,14 @@ export default function ExampleUseState() {
 		</div>
 	);
 }
+
+/* 
+
+Reads in doc
+
+
+
+https://react.dev/learn/managing-state
+React each chapter of state at least 1 time peer week
+
+*/
