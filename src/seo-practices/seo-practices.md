@@ -1,2 +1,4 @@
 - why server side rendering is important
 - metatags
+- html semantic
+- css bundle
