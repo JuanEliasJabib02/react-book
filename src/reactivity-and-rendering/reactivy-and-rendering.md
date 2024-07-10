@@ -40,7 +40,11 @@ The virtual dom is nothing more that a representation in-memory of the dom
   comparing the previous dom with the virtual dom and check if something change
   and change in the real dom only the neccesary (this process is called reconcilation).
 
-In this first step react
+- Another things to have in mind working with React is how affect the re-render of a component
+  in the three, when a component is re-render, his children are re-rendered too, more info go to
+  this youtube video.
+
+  https://www.youtube.com/watch?v=qTDnwmMF5q8&list=PL6dw1BPCcLC4n-4o-t1kQZH0NJeZtpmGp&ab_channel=DeveloperWay
 
 # Thoughts to keep studyng later.
 
