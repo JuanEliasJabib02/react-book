@@ -4,7 +4,7 @@ Reactivity refers to an application's ability to update and respond to data chan
 
 # Rendering
 
-Rendering, on the other hand, refers to the process of generating the UI based on the current state of the application. There are different types of rendering:
+Rendering,on the other hand, refers to the process of generating the UI based on the current state of the application. There are different types of rendering:
 
 - Client-Side Rendering (CSR): The UI is generated in the user's browser using JavaScript. React, for example, performs client-side rendering by default.
 
@@ -60,13 +60,15 @@ The virtual dom is nothing more that a representation in-memory of the dom
 
 - use memo
 - use callback
+- useref
 - why use callback and use memo is the same.
 - the only way to stop a re-render of a component that is not needed to re-render in a tree
-  is usememo and use callback , explain why.
+  is usememo and use callback, explain why is almost the same.
 
 # questions to be answer
 
 - What is the differences built-time vs request time in the rendering process.?
 - What is the cycle of life of a React component?
+  R/:Mounting, re-render, unmount.
 - Explain the reconcilation process?
 - What is the diffting and patching on React?
