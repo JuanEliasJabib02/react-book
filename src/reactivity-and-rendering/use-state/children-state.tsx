@@ -1,3 +1,4 @@
-export default function ChildrenState() {
-	return <div></div>;
+export default function ChildrenStateExample() {
+	console.log('i was rendered too');
+	return <div>Children example</div>;
 }
