@@ -46,17 +46,19 @@ The virtual dom is nothing more that a representation in-memory of the dom
 
   https://www.youtube.com/watch?v=qTDnwmMF5q8&list=PL6dw1BPCcLC4n-4o-t1kQZH0NJeZtpmGp&ab_channel=DeveloperWay
 
+- A re-render is ONLY caused when a state change, not when a prop change.
+
+-
+
 # Thoughts to keep studyng later.
 
 - React reactivity and rendering is based in something called Virtual DOM.
 - Reactivity on react is handle mainly by using two hooks useState and useEffect,
   with useState we handle states as his name said and with useEffect we control the component rendering.
-- When a component is rendered, the components under him in the arbol treee hierchy
-- Renconcilation
-- Diffting
 
 # questions to be answer
 
 - What is the differences built-time vs request time in the rendering process.?
 - What is the cycle of life of a React component?
 - Explain the reconcilation process?
+- What is the diffting and patching on React?
