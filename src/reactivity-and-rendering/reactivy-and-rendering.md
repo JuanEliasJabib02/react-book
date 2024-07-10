@@ -48,13 +48,15 @@ The virtual dom is nothing more that a representation in-memory of the dom
 
 - A re-render is ONLY caused when a state change, not when a prop change.
 
--
+# React Hydratation.
+
+- To understand the react hydratation we have to know, what is the difference
+  between server side rendering and client side rendering.
+- Hydratation is just the process by which React make interactive the html that come
+  from the server.
+- In client-side rendering, the browser builds the page and adds interactivity directly with JavaScript, so hydration is not needed.
 
 # Thoughts to keep studyng later.
-
-- React reactivity and rendering is based in something called Virtual DOM.
-- Reactivity on react is handle mainly by using two hooks useState and useEffect,
-  with useState we handle states as his name said and with useEffect we control the component rendering.
 
 # questions to be answer
 
