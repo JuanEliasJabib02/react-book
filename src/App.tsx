@@ -1,10 +1,13 @@
 import './App.css';
-import ExampleUseState from './reactivity-and-rendering/use-state/use-state';
-function App() {
+import UseEffectExample from './reactivity/use-effect/use-effect-example-1';
+/* import ExampleUseState from './reactivity/use-state/use-state';
+ */ function App() {
 	return (
 		<main className=''>
 			{/* Invoke the component exmaple that you wanna see  */}
-			<ExampleUseState />
+			{/* 			<ExampleUseState />
+			 */}{' '}
+			<UseEffectExample />
 		</main>
 	);
 }

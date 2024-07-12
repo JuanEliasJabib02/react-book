@@ -8,7 +8,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     - Stric Mode cause only in dev mode a re-render to validated things
     a help us to find bugs ect,
   */
-	<React.StrictMode>
-		<App />
-	</React.StrictMode>
+	/* 	<React.StrictMode>
+	 */ <App />
+	/* 	</React.StrictMode>
+	 */
 );
