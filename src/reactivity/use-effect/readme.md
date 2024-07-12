@@ -63,3 +63,19 @@ This includes tasks like:
 - Updating the DOM: Changing the document title or modifying elements that are not managed by React.
 - Making API Calls: Fetching data from a server and then updating the component state.
   Setting Up Subscriptions: Listening to events or external data sources.
+
+# Short explain about useEffect and final thoughts.
+
+useEffect is a React hook that allows you to run additional code (such as fetching data or updating the DOM) after a component has been rendered, and ensures that the component stays updated when certain values change.
+
+## Analogy
+
+Imagine your component is like a person writing a report. Once the person finishes writing (i.e., the component has rendered), they need to perform some additional tasks, like sending the report via email or adding extra details. This is where useEffect comes in: it acts as a reminder to handle those extra tasks after the report is completed.
+
+### In Detail:
+
+- Component as a Person: The person writing the report (the component) does their main job first.
+- Additional Tasks as Side Effects: After finishing, they need to perform additional tasks, such as sending the report (making API calls) or adding final details (manipulating the DOM).
+- useEffect as a Reminder: useEffect acts like a reminder that tells the person when and how to perform those additional tasks after the report is done and can also let them know if they need to repeat some of these tasks if something changes.
+
+This analogy helps visualize how useEffect manages tasks that need to be performed after a component is initially in place and how it helps keep everything synchronized.
