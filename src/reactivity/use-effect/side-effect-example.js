@@ -6,3 +6,7 @@ function incrementCounter() {
 
 incrementCounter(); //When this function is called , this produce a side-effect.
 incrementCounter();
+
+
+
+/* This is not exactly how is executed useEffect inside a component*/
