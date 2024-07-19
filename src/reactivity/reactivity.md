@@ -2,24 +2,18 @@
 
 Reactivity refers to an application's ability to update and respond to data changes efficiently and automatically. In the context of a web application, this means that when data changes (e.g., through user input, a server update, or a change in application state), the user interface (UI) automatically updates to reflect those changes. Frameworks and libraries like React, Vue.js, and Svelte implement reactivity to facilitate the management of state changes and their impact on the UI.
 
-# Rendering
-
-Rendering,on the other hand, refers to the process of generating the UI based on the current state of the application. There are different types of rendering:
-
-- Client-Side Rendering (CSR): The UI is generated in the user's browser using JavaScript. React, for example, performs client-side rendering by default.
-
-- Server-Side Rendering (SSR): The UI is generated on the server and sent to the client as static HTML, which is then hydrated (made interactive) with JavaScript. Next.js is an example of a framework that facilitates SSR with React.
-
-- Static Site Generation (SSG): Pages are generated at build time and served as static HTML files. This is useful for content that does not change frequently.
-
-- Incremental Static Regeneration (ISR): Combines the best of SSR and SSG, allowing static pages to be regenerated incrementally and on-demand.
-
-- React Frameworks like nextjs have this behavior automatic optmize your app to be static
-  when is possible https://nextjs.org/docs/pages/building-your-application/rendering/automatic-static-optimization
-
-- We cover most of this in the rendering chapter.
-
 # Relationship Between Reactivity and Rendering
+
+Rendering refers to the process to create UI based in the current state of a app,
+but mainly when we talk about rendering as a part of reactivity, we talk
+about the ability to update the ui based in the changes of states
+in a app, this is what we call a re-render
+
+Knowing this the most easy definition to it is,
+
+reactivity is the mechanism by which the app is able
+to detect and handle data changes, ensuring that the ui
+stay syncronized with the application's state.
 
 Reactivity encompasses broader aspects than rendering. While rendering is the act of generating and updating the UI, reactivity includes:
 
@@ -27,9 +21,7 @@ Reactivity encompasses broader aspects than rendering. While rendering is the ac
 - Change Propagation: Determining how those changes should be reflected in the UI.
 - UI Update: Re-rendering the parts of the UI that need to be updated to reflect the data changes.
 
-In summary, reactivity includes rendering as one of its parts but also encompasses the logic and mechanisms to detect and handle data changes, ensuring that the UI stays synchronized with the application's state.
-
-# How work the reactivity and rendering in react?
+# How work the reactivity in react?
 
 In react we have two main tools to handle the reactivity of a web app, useState and useEffect,
 combining this two hooks we can have a complete control about it.
