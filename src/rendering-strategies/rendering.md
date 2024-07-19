@@ -24,3 +24,4 @@ There are different types of rendering:
 - Server components
 - Client componentes
 - Pre-rendering(SSR & SSR) ,Client rendering, ISR rendering
+- What is the differences built-time vs request time in the rendering process.?

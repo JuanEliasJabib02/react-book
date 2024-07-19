@@ -54,15 +54,15 @@ The virtual dom is nothing more that a representation in-memory of the dom
 
 - use memo
 - use callback
+- react memo
 - useref
-- why use callback and use memo is the same.
+- why use callback and useMemo is the same.
 - the only way to stop a re-render of a component that is not needed to re-render in a tree
-  is usememo and use callback, explain why is almost the same.
+  kig
 
 # questions to be answer
 
-- What is the differences built-time vs request time in the rendering process.?
+- What is the diffting and patching on React?
+
 - What is the cycle of life of a React component?
   R/:Mounting, re-render, unmount.
-- Explain the reconcilation process?
-- What is the diffting and patching on React?
