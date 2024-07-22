@@ -59,10 +59,11 @@ The virtual dom is nothing more that a representation in-memory of the dom
 - why use callback and useMemo is the same.
 - the only way to stop a re-render of a component that is not needed to re-render in a tree
   kig
+- Clean effects
+- Separating event for effects(this is in beta)
 
 # questions to be answer
 
 - What is the diffting and patching on React?
-
 - What is the cycle of life of a React component?
   R/:Mounting, re-render, unmount.
