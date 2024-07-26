@@ -42,14 +42,6 @@ The virtual dom is nothing more that a representation in-memory of the dom
 
 - A re-render is ONLY caused when a state change, not when a prop change.
 
-# React Hydratation.
-
-- To understand the react hydratation we have to know, what is the difference
-  between server side rendering and client side rendering.
-- Hydratation is just the process by which React make interactive the html that come
-  from the server.
-- In client-side rendering, the browser builds the page and adds interactivity directly with JavaScript, so hydration is not needed.
-
 # Thoughts to keep studyng later.
 
 - use memo
@@ -62,8 +54,16 @@ The virtual dom is nothing more that a representation in-memory of the dom
 - Clean effects
 - Separating event for effects(this is in beta)
 
-# questions to be answer
+# FAQS
 
 - What is the diffting and patching on React?
+  Diffting is the process by which react compare the virtual old dom vs the virtual dom
+  and see what have to chaneg, and patching is the process by which react update
+  the dom.
+
+  in react native the flow is diffting - serializacion(is like the parching but for native, just send a json info with the instructions) - javascript bridge(translate the info to native) - native.
+
 - What is the cycle of life of a React component?
-  R/:Mounting, re-render, unmount.
+  The cycle of life in a component is mounted - re-render(updating) - unmounted
+
+  being mounted phase the heaviest of all.

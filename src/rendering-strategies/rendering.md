@@ -17,9 +17,16 @@ There are different types of rendering:
 - React Frameworks like nextjs have this behavior automatic optmize your app to be static
   when is possible https://nextjs.org/docs/pages/building-your-application/rendering/automatic-static-optimization
 
+# React Hydratation.
+
+- To understand the react hydratation we have to know, what is the difference
+  between server side rendering and client side rendering.
+- Hydratation is just the process by which React make interactive the html that come
+  from the server.
+- In client-side rendering, the browser builds the page and adds interactivity directly with JavaScript, so hydration is not needed.
+
 # Thougts
 
-- Hydratation( just copy it about reactivity chapter)
 - Why key is used in list.
 - Server components
 - Client componentes
