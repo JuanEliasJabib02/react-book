@@ -1,4 +1,4 @@
-# Cache
+# Cache ( general)
 
 Cache is a small, fast memory storage used to keep copies of data or instructions that are frequently used, so they can be accessed more quickly than if they had to be fetched from a slower source because is located closer to the cpu.
 
@@ -77,7 +77,7 @@ How It Helps:
 - Smooth Operation: Adequate RAM ensures that apps and the operating system run smoothly, manage active tasks efficiently, and provide a responsive user experience.
 - Better Multitasking: More RAM allows for better multitasking, enabling users to switch between apps without performance degradation.
 
-## Summary
+## Summary general study about cache
 
 - In Web Development:
   Cache: Stores web resources locally to speed up load times and reduce bandwidth usage.
@@ -88,7 +88,59 @@ How It Helps:
   Cache: Stores app data locally for faster access and offline functionality.
   RAM: Used by mobile apps and the operating system to manage active data and ensure smooth performance.
 
+# Web development cache with React
+
+1. Browser Cache:
+
+What It Does: The browser cache stores static assets like JavaScript bundles, CSS files, and images locally. When a user revisits your React application, the browser can quickly load these assets from the cache instead of re-downloading them from the server.
+
+- How It Helps: This reduces load times and improves performance, especially for returning users. Implementing proper cache headers and strategies (like cache-busting) ensures users get the latest version of assets when they are updated.
+
+2. Service Workers:
+
+- What They Do: Service workers are scripts that run in the background and can cache resources for offline use. They can intercept network requests and serve cached responses, which is useful for Progressive Web Apps (PWAs).
+- How They Help: Service workers enable offline functionality and faster load times by caching important resources and serving them without needing to contact the server.
+
+3. React Query / SWR:
+
+- What They Do: Libraries like React Query and SWR provide built-in caching mechanisms for fetching data from APIs. They cache the results of API requests to avoid unnecessary network calls and improve data retrieval speed.
+- How They Help: They manage data fetching, caching, and synchronization, making it easier to handle server-state management and improve application responsiveness.
+
+# Mobile Development with React Native
+
+1. App Cache:
+
+- What It Does: Mobile apps built with React Native can cache data such as images, user preferences, and fetched API data locally on the device.
+- How It Helps: This local caching improves app performance by reducing the need for repeated network requests and enhancing the user experience, especially in areas with poor connectivity.
+
+2. AsyncStorage:
+
+- What It Does: AsyncStorage is a simple, asynchronous key-value storage system for React Native. It allows you to persist data across app sessions.
+- How It Helps: It can be used to store small amounts of data such as user settings or recently viewed items, making the app faster and more responsive by avoiding the need to fetch this data repeatedly from a remote server.
+
+3. Offline Support:
+
+- What It Does: React Native apps can use caching strategies to enable offline functionality. For example, libraries like react-native-offline can help manage network status and cache data accordingly.
+
+- How It Helps: Provides a seamless experience by allowing users to interact with the app even when they are not connected to the internet.
+
+## Summary
+
+1. Web Development with React:
+
+- Browser Cache: Stores static assets for faster load times.
+- Service Workers: Cache resources for offline use and faster access.
+- React Query / SWR: Cache API data to reduce network calls and improve responsiveness.
+
+2. Mobile Development with React Native:
+
+- App Cache: Stores data locally to improve performance and reduce network requests.
+- AsyncStorage: Provides persistent key-value storage for small amounts of data.
+- Offline Support: Uses caching strategies to enable offline functionality and improve user experience.
+
+# Difference between local storage and browser cache
+
 # thoughts
 
-- localStorage???
+- localStorage vs browser cache???
 - how react handle the cache?
