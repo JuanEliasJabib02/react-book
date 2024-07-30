@@ -1,0 +1,2 @@
+- good practices with postgresql supabase
+- normalization

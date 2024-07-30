@@ -44,14 +44,16 @@ The virtual dom is nothing more that a representation in-memory of the dom
 
 # Thoughts to keep studyng later.
 
+- What is the use of useRef?
 - use memo
 - use callback
 - react memo
-- useref
-- why use callback and useMemo is the same.
 - the only way to stop a re-render of a component that is not needed to re-render in a tree
   kig
+- useref
+- why use useCallback and useMemo is the same.
 - Clean effects
+
 - Separating event for effects(this is in beta)
 
 # FAQS
