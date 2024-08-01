@@ -1,9 +1,9 @@
-# What is the useEffect and his function wich was created.
+# What is the useRef and his function wich was created.
 
-- Mutables vs inmutable React.
-- Dont caause a re-render
-- Remeber a value.
+## Principal differences with useState
 
-- What is
-  .current
-  -prncipal use is dom
+## Whats means mutable vs inmutable in React
+
+## Principal use cases for useRef
+
+## Examples
