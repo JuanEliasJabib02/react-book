@@ -1,0 +1,3 @@
+- React vision behind components
+- Cycle of life.
+- Code is created en every render or what?
