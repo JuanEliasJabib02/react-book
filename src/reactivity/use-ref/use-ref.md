@@ -9,11 +9,14 @@ How we know components are just functions, so everything inside is basically a l
 to that function.
 
 When React re-render a component, the function that define the component is called again
-This means that all the code inside the component actually is excecuted again.
+This means that all the code linside the component actually is excecuted again.
 
 How ever react has a mechanism for optimization stuff (reconcilation, virtual dom ect ect...)
 
-## Principal differences with useState
+## Differences between a ref and a state
+
+- One of the biggest and most visible differences between Refs and state is
+  that Refs update don't cause re-renders.
 
 ## Whats means mutable vs inmutable in React
 

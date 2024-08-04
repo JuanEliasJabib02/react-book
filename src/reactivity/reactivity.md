@@ -4,6 +4,7 @@ Reactivity refers to an application's ability to update and respond to data chan
 
 # Relationship Between Reactivity and Rendering
 
+,
 Rendering refers to the process to create UI based in the current state of a app,
 but mainly when we talk about rendering as a part of reactivity, we talk
 about the ability to update the ui based in the changes of states
@@ -44,16 +45,8 @@ The virtual dom is nothing more that a representation in-memory of the dom
 
 # Thoughts to keep studyng later.
 
-- What is the use of useRef?
-- use memo
-- use callback
-- react memo
-- the only way to stop a re-render of a component that is not needed to re-render in a tree
-  kig
 - useref
-- why use useCallback and useMemo is the same.
 - Clean effects
-
 - Separating event for effects(this is in beta)
 
 # FAQS
