@@ -1,0 +1,4 @@
+- Server components
+- Client side rendering
+- Server side rendering
+- Static site generation
