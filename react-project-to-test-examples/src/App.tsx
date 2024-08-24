@@ -12,10 +12,10 @@ function App() {
 		<main className=''>
 			{/* 			<ExampleUseState />
 			 */}{' '}
-			{/* 			<UseEffectExample />
-			 */}{' '}
+			<UseEffectExample />
 			{/* <UseEffectExample2 /> */}
-			<UseEffectExample3 />
+			{/* 			<UseEffectExample3 />
+			 */}{' '}
 		</main>
 	);
 }
