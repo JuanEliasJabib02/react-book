@@ -1,1 +1,0 @@
-# Whats means software achitecture
